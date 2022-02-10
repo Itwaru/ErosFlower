@@ -165,6 +165,10 @@ body {
     }
 }
 
+li:nth-child(2){
+    display: none;
+}
+
 /* slider */
 
 
@@ -340,8 +344,6 @@ body {
 
 
 
-
-
 @media(max-width:750px) {
 
     .menu {
@@ -430,8 +432,19 @@ body {
     }
 
     .slider {
-        width: 100%;
+        width: 90%;
     }
+
+    li:first-child {
+        display: none;
+    }
+
+    li:nth-child(2){
+        display: block;
+    }
+
+
+
 
 
 }
