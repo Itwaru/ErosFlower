@@ -4,6 +4,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #d6bdc9;
     /* background-color: #e96375; */
@@ -45,6 +49,10 @@ body {
 .nav_contacto:hover {
     transform: rotate(20deg);
 
+}
+
+#cards__container{
+    transition: all .5s ;
 }
 
 .nav_contacto,
