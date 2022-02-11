@@ -7,7 +7,7 @@
 
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -55,8 +55,8 @@ body {
 
 }
 
-#cards__container{
-    transition: all .5s ;
+#cards__container {
+    transition: all .5s;
 }
 
 .nav_contacto,
@@ -177,11 +177,105 @@ body {
     }
 }
 
-li:nth-child(2){
+li:nth-child(2) {
     display: none;
 }
 
 /* slider */
+
+
+/* Sobre nosotros */
+
+.nosotros_container {
+    width: 90%;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/sobre_nosotros.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.sobre_nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: inherit;
+   /*  border: 1px solid black; */
+}
+
+.logo_nosotros {
+    width: 50%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.img_logo {
+    width: 100%;
+    height: 300px;
+}
+
+.info_nosotros {
+    width: 50%;
+    height: 300px;
+    /* border: 1px solid rgb(15, 43, 201); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.transporte {
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid rgb(21, 201, 15); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.img_transporte {
+    width: 50%;
+    height: 300px;
+   /*  border: 1px solid rgb(21, 201, 15); */
+    order: 2;
+}
+
+.info_transporte {
+    width: 50%;
+    height: 300px;
+   /*  border: 1px solid rgb(21, 201, 15); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sobre nosotros */
+
 
 
 
@@ -228,7 +322,7 @@ li:nth-child(2){
 }
 
 .img::after {
-    content: "Arreglo Floral";
+    content: "Apolo $50";
     font-size: 2rem;
     color: #fff;
     background-color: #e96375;
@@ -239,72 +333,331 @@ li:nth-child(2){
     transform: translateY(100%);
     transition: transform 1.1s;
     opacity: 0.8;
+    text-align: center;
 }
 
 .arreglo_2 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/2.jpeg);
 }
 
+.dos::after {
+    content: "Hermes $35 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_3 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/3.jpeg);
 }
 
+.tres::after {
+    content: " ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
+
 .arreglo_4 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/4.jpeg);
+}
 
+.cuatro::after {
+    content: "Ares $55 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
 }
 
 .arreglo_5 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/15.jpeg);
 }
 
+.cinco::after {
+    content: " ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_6 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/16.jpeg);
+}
+
+.seis::after {
+    content: " ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
 }
 
 .arreglo_7 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/7.jpeg);
 }
 
+.siete::after {
+    content: "Hades $32 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_8 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/8.jpeg);
+}
+
+.ocho::after {
+    content: "Hera $18 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
 }
 
 .arreglo_9 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/9.jpeg);
 }
 
+.nueve::after {
+    content: "Zeus $35 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_10 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/10.jpeg);
+}
+
+.diez::after {
+    content: "Dionisio $25 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
 }
 
 .arreglo_11 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/11.jpeg);
 }
 
+.once::after {
+    content: " ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_12 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/17.jpeg);
+}
+
+.doce::after {
+    content: " ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
 }
 
 .arreglo_13 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/18.jpeg);
 }
 
+.trece::after {
+    content: " ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_14 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/14.jpeg);
+}
+
+.catorce::after {
+    content: "Hefesto $30 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
 }
 
 .arreglo_15 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/5.jpeg);
 }
+
+.quince::after {
+    content: "Atenea $25 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_16 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/6.jpeg);
 }
+
+.dieciseis::after {
+    content: "Poseidon $32";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_17 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/12.jpeg);
 }
+
+.diecisiete::after {
+    content: "Artemisa $18 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 .arreglo_18 {
     background-image: url(Fotos\ Arreglos\ Eros\ Flower/13.jpeg);
+}
+
+.dieciocho::after {
+    content: "Afrodita $22 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
 }
 
 /* cards  */
@@ -330,7 +683,7 @@ li:nth-child(2){
     color: #fff;
 }
 
-.footer_items a img{
+.footer_items a img {
     width: 50px;
     height: 50px;
 }
@@ -469,10 +822,34 @@ li:nth-child(2){
         display: none;
     }
 
-    li:nth-child(2){
+    li:nth-child(2) {
         display: block;
     }
 
+    .nosotros_container{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: auto;
+        margin-top: 100px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        
+        
+    }
+
+    .sobre_nosotros{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .transporte{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%;
+    }
 
 
 
