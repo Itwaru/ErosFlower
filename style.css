@@ -13,29 +13,24 @@ html {
 
 body {
     background-color: #d6bdc9;
-    /* background-color: #e96375; */
     font-family: 'Dancing Script', cursive;
 }
 
 /* header */
 .container {
-    /* border: 1px solid rgb(255, 255, 255); */
     width: 90%;
     height: 320px;
     margin: 0 auto;
-    /* background-color: black; */
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid rgb(255, 255, 255); */
     align-items: center;
 }
 
 .nav_items {
     height: 25px;
-    /* border: 1px solid rgb(255, 255, 255); */
     display: flex;
     gap: 2rem;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
@@ -51,7 +46,6 @@ body {
 
 .nav_contacto:hover {
     transform: rotate(20deg);
-
 }
 
 #cards__container {
@@ -84,7 +78,6 @@ body {
     width: 100%;
     height: 1px;
     background: #e96375;
-    /* background: #d6bdc9; */
     display: block;
     clip-path: var(--clippy);
     transition: clip-path .5s;
@@ -94,7 +87,7 @@ body {
     height: 320px;
 }
 
-.menu,
+.boton,
 .check {
     display: none;
 }
@@ -192,7 +185,6 @@ li:nth-child(2) {
 .nosotros_container {
     width: 90%;
     height: 600px;
-    /* border: 1px solid black; */
     margin: auto;
     margin-top: 100px;
     display: flex;
@@ -209,13 +201,11 @@ li:nth-child(2) {
     align-items: center;
     width: 50%;
     height: inherit;
-    /*  border: 1px solid black; */
 }
 
 .logo_nosotros {
     width: 50%;
     height: 300px;
-    /* border: 1px solid black; */
 }
 
 .img_logo {
@@ -226,7 +216,6 @@ li:nth-child(2) {
 .info_nosotros {
     width: 50%;
     height: 300px;
-    /* border: 1px solid rgb(15, 43, 201); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,7 +224,6 @@ li:nth-child(2) {
 .transporte {
     width: 50%;
     height: inherit;
-    /* border: 1px solid rgb(21, 201, 15); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,14 +233,12 @@ li:nth-child(2) {
 .img_transporte {
     width: 50%;
     height: 300px;
-    /*  border: 1px solid rgb(21, 201, 15); */
     order: 2;
 }
 
 .info_transporte {
     width: 50%;
     height: 300px;
-    /*  border: 1px solid rgb(21, 201, 15); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,7 +265,6 @@ li:nth-child(2) {
     perspective: 700;
     margin-bottom: 40px;
     border-radius: 10px;
-    /* border: 1px solid black; */
     overflow: hidden;
 }
 
@@ -292,7 +277,6 @@ li:nth-child(2) {
     background-repeat: no-repeat;
     margin: 0 auto;
     position: relative;
-    /* border: 1px solid black; */
     overflow: hidden;
     box-shadow: 0px 0px 20px #e96375;
     border-radius: 20px;
@@ -306,7 +290,7 @@ li:nth-child(2) {
 }
 
 .img::after {
-    content: "Apolo $50";
+    content: "Apolo $28";
     font-size: 2rem;
     color: #fff;
     background-color: #e96375;
@@ -712,13 +696,19 @@ li:nth-child(2) {
 
 @media(max-width:750px) {
 
-    .menu {
+    .boton {
         display: block;
         cursor: pointer;
         margin-right: 10px;
         margin-top: 80px;
     }
 
+    .menu{
+        width: 40px;
+        height: 40px;
+    }
+
+    
     .nav_items {
         position: fixed;
         top: 322px;
@@ -733,9 +723,12 @@ li:nth-child(2) {
         justify-content: space-evenly;
         clip-path: circle(0% at left);
         background-color: #e96375be;
-        /* background-color: #d6bdc9c9; */
         transition: clip-path .5s;
-        z-index: 1;
+        z-index: 999;  
+    }
+
+    .nav_items.is-active{
+       clip-path: circle(100% at left);
     }
 
     .nav_enlace::after {
@@ -750,10 +743,6 @@ li:nth-child(2) {
 
     .nav_enlace:hover {
         --clippy: polygon(0 0, 99% 0, 99% 100%, 0 100%);
-    }
-
-    .check:checked+.nav_items {
-        clip-path: circle(100% at left);
     }
 
     .img {
@@ -827,5 +816,7 @@ li:nth-child(2) {
         margin: 0 auto;
         width: 100%;
     }
+
+   
 
 }
