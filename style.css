@@ -40,7 +40,7 @@ body {
 .nav_enlace {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
 
 }
 
@@ -95,7 +95,12 @@ body {
 /* header */
 
 
+/* Letras */
+h3 {
+    font-size: 25px;
+}
 
+/* Letras */
 
 /* slider */
 .slider {
@@ -400,11 +405,11 @@ li:nth-child(2) {
 }
 
 .arreglo_7 {
-    background-image: url(Fotos\ Arreglos\ Eros\ Flower/7.jpeg);
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/19.jpeg);
 }
 
 .siete::after {
-    content: "Hades $32 ";
+    content: "Olimpo $38 ";
     font-size: 2rem;
     color: #fff;
     background-color: #e96375;
@@ -627,6 +632,25 @@ li:nth-child(2) {
     opacity: 0.8;
 }
 
+.arreglo_19 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/7.jpeg);
+}
+
+.diecinueve::after {
+    content: "Hades $32 ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 /* cards  */
 
 
@@ -703,12 +727,12 @@ li:nth-child(2) {
         margin-top: 80px;
     }
 
-    .menu{
+    .menu {
         width: 40px;
         height: 40px;
     }
 
-    
+
     .nav_items {
         position: fixed;
         top: 322px;
@@ -722,13 +746,13 @@ li:nth-child(2) {
         align-items: center;
         justify-content: space-evenly;
         clip-path: circle(0% at left);
-        background-color: #e96375be;
+        background-color: #e96375d5;
         transition: clip-path .5s;
-        z-index: 999;  
+        z-index: 999;
     }
 
-    .nav_items.is-active{
-       clip-path: circle(100% at left);
+    .nav_items.is-active {
+        clip-path: circle(100% at left);
     }
 
     .nav_enlace::after {
@@ -743,6 +767,9 @@ li:nth-child(2) {
 
     .nav_enlace:hover {
         --clippy: polygon(0 0, 99% 0, 99% 100%, 0 100%);
+    }
+    .nav_enlace{
+        font-size: 25px;
     }
 
     .img {
@@ -817,6 +844,17 @@ li:nth-child(2) {
         width: 100%;
     }
 
-   
+    .info_nosotros {
+        text-align: center;
+    }
+
+    .info_transporte {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
 
 }
