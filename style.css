@@ -651,6 +651,146 @@ li:nth-child(2) {
     opacity: 0.8;
 }
 
+
+.arreglo_20 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/20.jpeg);
+}
+.veinte::after {
+    content: "Eros $ ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+.arreglo_21 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/21.jpeg);
+}
+.veintiuno::after {
+    content: "Demetra $ ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
+.arreglo_22 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/22.jpeg);
+}
+.veintidos::after {
+    content: "Radamantis $ ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
+.arreglo_23 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/23.jpeg);
+}
+.veintitres::after {
+    content: "Enio $ ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+.arreglo_24 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/24.jpeg);
+}
+.veinticuatro::after {
+    content: "Ilitia $ ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+.arreglo_25 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/25.jpeg);
+}
+.veinticinco::after {
+    content: "Hercules $ ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+.arreglo_26 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/26.jpeg);
+}
+.veintiseis::after {
+    content: "Persefone $ ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+.arreglo_27 {
+    background-image: url(Fotos\ Arreglos\ Eros\ Flower/27.jpeg);
+}
+.veintisiete::after {
+    content: "Perseo $ ";
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e96375;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 1.1s;
+    opacity: 0.8;
+}
+
 /* cards  */
 
 
